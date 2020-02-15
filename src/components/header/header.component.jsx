@@ -7,7 +7,6 @@ import Logo from './Logo.png';
 const Header = () =>(
     <div className='header'>
         <Link className='logo-container' to="/">
-            {/* <Logo className='logo' /> */}
             <img src={Logo} />
         </Link>
         <div className='options'>
